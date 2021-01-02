@@ -1,0 +1,243 @@
+html {
+    height: 100%;
+  }
+
+body{
+    font-family: 'OpenSans', sans-serif;
+    color: #8A8A8A;
+    background-color: #F9FAFC;
+    height: 100%;
+}
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+#moda-logo {
+    width: 10%;
+    min-width: 8.125px;
+    height: auto;
+    margin: 0em 0em 0.3125em 2.1875em;
+}
+
+#user-icon {
+    width: 3.125em;
+    height: auto;
+    margin-left: 1.25em;
+}
+
+#navbarSupportedContent ul {
+    margin-right: 2.1875em;
+}
+
+#navbarSupportedContent .navbar-item a {
+    padding-top: 0.9375em;
+    font-size: 1.3125em;
+    font-weight: 600;
+    color: black;
+}
+
+#navbarSupportedContent li {
+    margin-right: 2.1875em;
+}
+
+.navbar-light .navbar-nav .active {
+    border-bottom: 0.375em solid black;
+  }
+
+
+
+
+
+#clothes-wrapper {
+    border-right: 1px #404040 solid;
+}
+
+#clothes-display {
+    background-color: #EFEFEF;
+    margin-top: 10%;
+    height: 85%;
+    border-top: 0.0625em #404040 solid;
+    border-bottom: 0.0625em #404040 solid;
+    position: relative;
+}
+
+.list-group {
+    border-radius: 0px;
+}
+
+
+
+.list-group-item {
+    padding: 1.875em 0.625em;
+    text-align: center;
+    color: black;
+    border-top: 0.0625em #404040 solid;
+    border-bottom: 0.0625em #404040 solid;
+    font-size: 1.125em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-group-item:first-child {
+    border-top: none;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.clothes-category-wrapper {
+    border: none;
+    background-color: #EFEFEF;
+}
+
+.category-box {
+    max-width: 90%;
+    width: 6.875em;
+    height: 8.125em;
+    border: 0.125em solid #EFEFEF;
+}
+
+.cb-left {
+    margin-left: 1.225em;
+}
+
+.category-box img{
+    width: 100%;
+    height: auto;
+}
+
+.category-box p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 85%;
+}
+
+
+
+
+
+#selector-row {
+    height: 10%;
+}
+
+#selector-row img{
+    width: 2.5em;
+    height: 2.5em;
+    border: 0.0625em solid black;
+    padding: 0.1875em;
+}
+
+#selector-row h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    color: black;
+    margin: 0.625em 3.75em;
+}
+
+#delete-look-button{
+    border: 0.125em solid #D93232 !important;
+}
+
+
+
+
+#main-row {
+    height: 90%;
+}
+
+.selected-clothes {
+    max-width: 4em;
+    height: auto;
+}
+
+.selected-clothes img {
+    max-width: 100%;
+    height: auto;
+}
+
+#addWearLook {
+    border: black 0.125em solid;
+}
+
+
+
+
+
+
+
+
+
+
+#detail-calendar-wrapper {
+    border-left: 0.0625em #404040 solid;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#detail-wrapper {
+    border-bottom: 0.125em dashed black;
+}
+
+
+
+#detail-div {
+    margin-top: 2.5em;
+}
+
+#detail-div img {
+    width: 6.25em;
+    height: 6.25em;
+}
+
+.form-check {
+    font-size: 0.8125em;
+}
+
+
+#detail-table-div {
+    margin-top: 2.5em;
+}
+
+#detail-table-div h3 {
+    font-weight: 700;
+    font-size: 1.1625em;
+}
+
+#detail-table-div td {
+    font-size: 0.94em;
+}
+
+#detail-table-div th {
+    font-weight: 600;
+}
+
+
+
+
+#calendar-box {
+    background-color: #EFEFEF;
+}
+
+.date-day {
+    font-weight: 600;
+    font-size: 1.875em;
+}
+
+.date-month {
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+.timetable {
+    font-size: 90%;
+}
+
+.timetable button{
+    font-size: 95%;
+}
